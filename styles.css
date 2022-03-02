@@ -1,0 +1,50 @@
+body {
+  background-color: #eaffd0;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1 {
+  color: #f38181;
+  margin-top: 10%;
+  font-size: 80px;
+}
+
+.container h3 {
+  color: #f38181;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.date {
+  float: left;
+  width: 20%;
+  margin-left: 25%;
+}
+
+.time {
+  float: right;
+  width: 20%;
+  margin-right: 25%;
+}
+
+.btn {
+  margin-top: 250px;
+}
+
+.btn h3 {
+  display: inline;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fce38a;
+  color: #f38181;
+}
+
+a {
+  text-decoration: none;
+}

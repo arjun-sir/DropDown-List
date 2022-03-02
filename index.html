@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idhar Mat Dekh</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Your Slot!</h1>
+        <div class="date">
+            <h3>Date:</h3>
+            <select class="list" onchange="getSelectValue();">
+                <option value="25">25th Feb 2024</option>
+                <option value="26">26th Feb 2024</option>
+                <option value="27">27th Feb 2024</option>
+                <option value="28">28th Feb 2024</option>
+                <option value="29">29th Feb 2024</option>
+            </select>
+        </div>
+        <div class="time">
+            <h3>Time:</h3>
+            <select class="list" onchange="getSelectValue();">
+                <option value="10-12">10:00AM - 12:00AM</option>
+                <option value="4-6">4:00PM - 6:00PM</option>
+                <option value="7-9">7:00PM - 9:00PM</option>
+            </select>
+        </div>
+        <div class="btn">
+            <a href="/works.html"><h3>SUBMIT</h3></a>
+        </div>
+    </div>
+
+    <script>
+        function getSelectValue(){
+            var selectedValue=document.getElementsByClassName("list").value;
+            console.log(selectedValue);
+        }
+    </script>
+</body>
+</html>
